@@ -1,6 +1,7 @@
 #!/bin/bash
+cd /home/vagrant/github/Devops
 date
-git status
 git add .
-git commit -m "`date`"
+git status
+git commit -m "$(date)"
 git push 
