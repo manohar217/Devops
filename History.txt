@@ -1,0 +1,205 @@
+    1  vagrant ssh -c "hostname -I | cut -d' ' -f2"
+    2  mkdir github
+    3  cd github/
+    4  mkdir -p Revision/Linux
+    5  git init
+    6  git --global -user.name "Manohar"
+    7  git -global --user.name "Manohar"
+    8  git config --global user.name "Manohar"
+    9  git config --global user.email "rajmanohar19@gmail.com"
+   10  git clone https://github.com/manohar217/Devops.git
+   11  ls
+   12  cd Devops/
+   13  ls
+   14  notepad cron.sh
+   15  vim cron.sh
+   16  git remote add origin https://github.com/manohar217/Devops.git
+   17  git pull
+   18  ls
+   19  crontab -e
+   20  pwd
+   21  crontab -e
+   22  vim cron.sh 
+   23  crontab -e
+   24  ls
+   25  vim cron.sh 
+   26  vim crontab -e
+   27  crontab -e
+   28  export EDITOR=VIM
+   29  crontab -e
+   30  export EDITOR=vim
+   31  crontab -e
+   32  ls -la
+   33  chmod +x cron.sh 
+   34  ls -la
+   35  chmod - cron.sh 
+   36  ls -la
+   37  chmod 764 cron.sh 
+   38  ls -la\
+   39  ls -la
+   40  crontab -e
+   41  ps -ef
+   42  ps -ef | grep -i cron
+   43  date
+   44  crontab -e
+   45  pwd
+   46  crontab -e
+   47  ls
+   48  crontab -e
+   49  ls
+   50  crontab -e
+   51  ls
+   52  cat logs.txt 
+   53  vim cron.sh 
+   54  ls
+   55  cat logs.txt 
+   56  ll
+   57  chmod +x cron.sh 
+   58  cat logs.txt 
+   59  cat logs.txt
+   60  ps -ef | grep -i cron
+   61  cat logs.txt
+   62  vim cron.sh 
+   63  cat logs.txt
+   64  vim cron.sh 
+   65  crontab -e
+   66  cat logs.txt
+   67  vim cron.sh 
+   68  ls
+   69  git add .
+   70  git status
+   71  vim cron.sh 
+   72  cat cron.sh 
+   73  cat logs.txt 
+   74  vim cron.sh 
+   75  git status >> logs.txt 
+   76  cat logs.txt 
+   77  ssh-keygen 
+   78  cat ~/.ssh/id_rsa.pub 
+   79  ls
+   80  rm logs.txt 
+   81  ls
+   82  crontab -e
+   83  ls
+   84  vim cron.sh 
+   85  rm cron.sh 
+   86  cd ..
+   87  rm Devops/
+   88  rm Devops/ -r
+   89  y
+   90  yls
+   91  ls
+   92  git clone git@github.com:manohar217/Devops.git
+   93  cd Devops/
+   94  ls
+   95  vim cron.sh
+   96  crontab -e 
+   97  ls -la
+   98  chmod +x cron.sh 
+   99  pwd
+  100  vim cron.sh 
+  101  git branch
+  102  git remote -v
+  103  ls
+  104  cat logs.txt 
+  105  vim cron.sh 
+  106  git status
+  107  cat logs.txt 
+  108  git add .
+  109  git status
+  110  git commit -m "$(date)"
+  111  git push
+  112  vim cr
+  113  vim cron.sh 
+  114  ls
+  115  cat logs.txt 
+  116  git status
+  117  vim cron.sh 
+  118  pwd
+  119  vim cron.sh 
+  120  cat logs.txt 
+  121  vim cron.sh 
+  122  ls
+  123  cat logs.txt 
+  124  echo "" > logs.txt 
+  125  cat logs.txt 
+  126  ceontab -e
+  127  crontab -e
+  128  ls
+  129  cat logs.txt 
+  130  ls
+  131  rm logs.txt 
+  132  ls
+  133  vi cron.sh 
+  134  mkdir Linux
+  135  cd Linux/
+  136  df -h
+  137  echo "todays date is $(date)" >metrics.txt
+  138  date
+  139  awk --help
+  140  date | awk '{print $3}
+  141  date | awk '{print $3}'
+  142  date | awk '{print $3,$4}'
+  143  date | awk '{print $4}'
+  144  echo todays cuurent time "$(data) | awk '{print $4}'"
+  145  echo todays cuurent time "$(date) | awk '{print $4}'"
+  146  echo "todays current time $(date) | awk '{print $4}'"
+  147  $time = "$(date) | awk '{print $4}'"
+  148  time ="$(date) | awk '{print $4}'"
+  149  time =$(date) | awk '{print $4}'
+  150  export time =$(date) | awk '{print $4}'
+  151  export time = $(date) | awk '{print $4}'
+  152  $(date) | awk '{print $4}' > time
+  153  $(date) | awk '{print $4}'
+  154  export time = date
+  155  export time=date
+  156  $time
+  157  export time=$(date) | awk '{print $4}'
+  158  $time
+  159  export time=date | awk '{print $4}'
+  160  $time
+  161  export time=`date | awk '{print $4}'`
+  162  $time
+  163  echo $time
+  164  df -h
+  165  ps -ef
+  166  free -h
+  167  free -m
+  168  free -m | awk '{print $3}'
+  169  free -m | grep -i mem | awk '{print $3}'
+  170  free -m
+  171  free -m | grep -i mem | awk '{print $4}'
+  172  export ram=free -m | grep -i mem | awk '{print $4}'
+  173  export ram=`free -m | grep -i mem | awk '{print $4}'`
+  174  ram
+  175  $ram
+  176  echo $ram
+  177  history
+  178  cd ../
+  179  vim cron.sh 
+  180  ls
+  181  rm history.txt 
+  182  ls
+  183  cat History.txt 
+  184  history > History.txt 
+  185  cat History.txt 
+  186  vim cron.sh 
+  187  ls
+  188  cat History.txt 
+  189  vim cron.sh 
+  190  cat History.txt 
+  191  ls
+  192  cat History.txt 
+  193  vim cron.sh 
+  194  vagrant halt
+  195  ipconfig
+  196  ls
+  197  cd github/
+  198  ls
+  199  cd Devops/
+  200  ls
+  201  vim cron.sh 
+  202  crontab -e
+  203  cat History.txt 
+  204  history
+  205  history > History.txt 
