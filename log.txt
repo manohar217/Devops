@@ -791,3 +791,17 @@ Changes to be committed:
 [main ee12357] Tue May  9 17:20:01 UTC 2023
  2 files changed, 11 insertions(+)
 Tue May  9 17:22:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   log.txt
+	deleted:    website-script/.webscript.sh.swp
+	new file:   website-script/webscript.sh
+
+[main b00c0b6] Tue May  9 17:22:01 UTC 2023
+ 3 files changed, 19 insertions(+)
+ delete mode 100644 website-script/.webscript.sh.swp
+ create mode 100755 website-script/webscript.sh
+Tue May  9 17:24:01 UTC 2023
