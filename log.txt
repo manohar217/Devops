@@ -805,3 +805,140 @@ Changes to be committed:
  delete mode 100644 website-script/.webscript.sh.swp
  create mode 100755 website-script/webscript.sh
 Tue May  9 17:24:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   log.txt
+	new file:   website-script/.webscript.sh.swp
+	new file:   website-script/2117_infinite_loop.zip
+	new file:   website-script/2117_infinite_loop/css/bootstrap.min.css
+	new file:   website-script/2117_infinite_loop/css/tooplate-infinite-loop.css
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/LICENSE.txt
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/css/all.min.css
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.eot
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.svg
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.ttf
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.woff
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.woff2
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.eot
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.svg
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.ttf
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.woff
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.woff2
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.eot
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.svg
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.ttf
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.woff
+	new file:   website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.woff2
+	new file:   website-script/2117_infinite_loop/img/gallery-img-01.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-img-02.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-img-03.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-img-04.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-img-05.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-img-06.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-tn-01.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-tn-02.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-tn-03.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-tn-04.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-tn-05.jpg
+	new file:   website-script/2117_infinite_loop/img/gallery-tn-06.jpg
+	new file:   website-script/2117_infinite_loop/img/infinite-loop-01.jpg
+	new file:   website-script/2117_infinite_loop/img/infinite-loop-02-mobile.jpg
+	new file:   website-script/2117_infinite_loop/img/infinite-loop-02.jpg
+	new file:   website-script/2117_infinite_loop/img/infinite-loop-03.jpg
+	new file:   website-script/2117_infinite_loop/img/testimonial-img-01.jpg
+	new file:   website-script/2117_infinite_loop/img/testimonial-img-02.jpg
+	new file:   website-script/2117_infinite_loop/img/testimonial-img-03.jpg
+	new file:   website-script/2117_infinite_loop/img/testimonial-img-04.jpg
+	new file:   website-script/2117_infinite_loop/img/the-town-bg-02.jpg
+	new file:   website-script/2117_infinite_loop/index.html
+	new file:   website-script/2117_infinite_loop/js/bootstrap.min.js
+	new file:   website-script/2117_infinite_loop/js/easing.min.js
+	new file:   website-script/2117_infinite_loop/js/jquery-1.9.1.min.js
+	new file:   website-script/2117_infinite_loop/js/jquery.singlePageNav.min.js
+	new file:   website-script/2117_infinite_loop/magnific-popup/jquery.magnific-popup.min.js
+	new file:   website-script/2117_infinite_loop/magnific-popup/magnific-popup.css
+	new file:   website-script/2117_infinite_loop/slick/ajax-loader.gif
+	new file:   website-script/2117_infinite_loop/slick/config.rb
+	new file:   website-script/2117_infinite_loop/slick/fonts/slick.eot
+	new file:   website-script/2117_infinite_loop/slick/fonts/slick.svg
+	new file:   website-script/2117_infinite_loop/slick/fonts/slick.ttf
+	new file:   website-script/2117_infinite_loop/slick/fonts/slick.woff
+	new file:   website-script/2117_infinite_loop/slick/slick-theme.css
+	new file:   website-script/2117_infinite_loop/slick/slick-theme.less
+	new file:   website-script/2117_infinite_loop/slick/slick-theme.scss
+	new file:   website-script/2117_infinite_loop/slick/slick.css
+	new file:   website-script/2117_infinite_loop/slick/slick.js
+	new file:   website-script/2117_infinite_loop/slick/slick.less
+	new file:   website-script/2117_infinite_loop/slick/slick.min.js
+	new file:   website-script/2117_infinite_loop/slick/slick.scss
+	modified:   website-script/webscript.sh
+
+[main c186eb8] Tue May  9 17:24:02 UTC 2023
+ 65 files changed, 9875 insertions(+), 5 deletions(-)
+ create mode 100644 website-script/.webscript.sh.swp
+ create mode 100644 website-script/2117_infinite_loop.zip
+ create mode 100644 website-script/2117_infinite_loop/css/bootstrap.min.css
+ create mode 100644 website-script/2117_infinite_loop/css/tooplate-infinite-loop.css
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/LICENSE.txt
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/css/all.min.css
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.eot
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.svg
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.ttf
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.woff
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.woff2
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.eot
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.svg
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.ttf
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.woff
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.woff2
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.eot
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.svg
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.ttf
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.woff
+ create mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.woff2
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-img-01.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-img-02.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-img-03.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-img-04.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-img-05.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-img-06.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-tn-01.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-tn-02.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-tn-03.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-tn-04.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-tn-05.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/gallery-tn-06.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/infinite-loop-01.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/infinite-loop-02-mobile.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/infinite-loop-02.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/infinite-loop-03.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/testimonial-img-01.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/testimonial-img-02.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/testimonial-img-03.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/testimonial-img-04.jpg
+ create mode 100644 website-script/2117_infinite_loop/img/the-town-bg-02.jpg
+ create mode 100644 website-script/2117_infinite_loop/index.html
+ create mode 100644 website-script/2117_infinite_loop/js/bootstrap.min.js
+ create mode 100644 website-script/2117_infinite_loop/js/easing.min.js
+ create mode 100644 website-script/2117_infinite_loop/js/jquery-1.9.1.min.js
+ create mode 100644 website-script/2117_infinite_loop/js/jquery.singlePageNav.min.js
+ create mode 100644 website-script/2117_infinite_loop/magnific-popup/jquery.magnific-popup.min.js
+ create mode 100644 website-script/2117_infinite_loop/magnific-popup/magnific-popup.css
+ create mode 100644 website-script/2117_infinite_loop/slick/ajax-loader.gif
+ create mode 100644 website-script/2117_infinite_loop/slick/config.rb
+ create mode 100644 website-script/2117_infinite_loop/slick/fonts/slick.eot
+ create mode 100644 website-script/2117_infinite_loop/slick/fonts/slick.svg
+ create mode 100644 website-script/2117_infinite_loop/slick/fonts/slick.ttf
+ create mode 100644 website-script/2117_infinite_loop/slick/fonts/slick.woff
+ create mode 100644 website-script/2117_infinite_loop/slick/slick-theme.css
+ create mode 100644 website-script/2117_infinite_loop/slick/slick-theme.less
+ create mode 100644 website-script/2117_infinite_loop/slick/slick-theme.scss
+ create mode 100644 website-script/2117_infinite_loop/slick/slick.css
+ create mode 100644 website-script/2117_infinite_loop/slick/slick.js
+ create mode 100644 website-script/2117_infinite_loop/slick/slick.less
+ create mode 100644 website-script/2117_infinite_loop/slick/slick.min.js
+ create mode 100644 website-script/2117_infinite_loop/slick/slick.scss
+Tue May  9 17:26:01 UTC 2023
