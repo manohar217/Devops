@@ -6,39 +6,24 @@ read url
 else
 echo "The selected number is greater than 10. please select 0 to 10 only..!"
 fi
-if [ $number -ge 0 ] && [ $number -le 5 ]; then
+if [ $number -ge 0 ] && [ $number -le 10 ]; then
 echo "apache2 start"
-sudo systemctl start apache2 > /dev/null
+sudo systemctl start apache2 &> /dev/null
 echo "apache2 enable"
-sudo systemctl enable apache2 > /dev/null
+sudo systemctl enable apache2 &> /dev/null
 mkdir -p new-web
 cd new-web
-echo "
-sudo wget $url
+echo "downloading teamplate....!"
+sudo wget $url &> /dev/null
 name=$(basename "$url" .zip)
-echo "$name"
-sudo unzip $name.zip
+echo "tooplate name is $name"
+echo "unzip of tooplate template"
+sudo unzip $name.zip &> /dev/null
 sudo rm -rf /var/www/html/*
 sudo cp -r $name/* /var/www/html/.
 cd ..
 sudo rm -rf new-web
-sudo systemctl restart apache2
-
-
-elif [ $number -ge 6 ] && [ $number -le 10 ]; then
-sudo apt install apache2 wget unzip -y
-sudo systemctl start apache2
-sudo systemctl enable apache2
-mkdir -p new-web
-cd new-web
-sudo wget $url
-name=$(basename "$url" .zip)
-echo "$name"
-sudo unzip $name.zip
-sudo rm -rf /var/www/html/*
-sudo cp -r $name/* /var/www/html/.
-cd ..
-sudo rm -rf new-web
+echo "restart apache2"
 sudo systemctl restart apache2
 else
 echo "!*!*!*!*!**!*!*!*!*!*!*!*!*!*!*!*!*!*!"
