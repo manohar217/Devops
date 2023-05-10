@@ -20,7 +20,7 @@ sudo rm -rf new-web
 sudo systemctl restart apache2
 
 
-elif [ $url -eq 1 ]; then
+elif [ $number -ge 6 ] && [ $number -le 10 ]; then
 sudo apt install apache2 wget unzip -y
 sudo systemctl start apache2
 sudo systemctl enable apache2
@@ -36,5 +36,5 @@ cd ..
 sudo rm -rf new-web
 sudo systemctl restart apache2
 else
-echo "Looks like its not a tooplate website url....! please give the correct url"
+echo "Please enter a number only in between 0 to 10. *****if you given in between them*****"
 fi
