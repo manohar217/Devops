@@ -3,7 +3,7 @@ read -p "Enter a number between 0 to 10: " number
 if [ $number -le 10 ]; then
 echo "enter any tooplate url"
 read url
-elif [ $number -ge 0 ] && [ $number -le 5 ]; then
+if [ $number -ge 0 ] && [ $number -le 5 ]; then
 
 sudo apt install apache2 wget unzip -y
 sudo systemctl start apache2
