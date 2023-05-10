@@ -7,8 +7,7 @@ else
 echo "The selected number is greater than 10. please select 0 to 10 only..!"
 fi
 if [ $number -ge 0 ] && [ $number -le 5 ]; then
-
-sudo apt install apache2 wget unzip -y
+echo "
 sudo systemctl start apache2
 sudo systemctl enable apache2
 mkdir -p new-web
