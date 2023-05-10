@@ -1,6 +1,7 @@
 #!/bin/bash
-read number
-if [ $number -eq 0 ]; then
+echo "enter any tooplate url"
+read url
+if [ $url -eq 0 ]; then
 
 sudo apt install apache2 wget unzip -y
 sudo systemctl start apache2
@@ -10,13 +11,13 @@ cd new-web
 sudo wget https://www.tooplate.com/zip-templates/2118_chilling_cafe.zip
 sudo unzip 2118_chilling_cafe.zip
 sudo rm -rf /var/www/html/*
-sudo cp -r 2117_infinite_loop/* /var/www/html/.
+sudo cp -r 2118_chilling_cafe/* /var/www/html/.
 cd ..
 sudo rm -rf new-web
 sudo systemctl restart apache2
 
 
-elif [ $number -eq 1 ]; then
+elif [ $url -eq 1 ]; then
 sudo apt install apache2 wget unzip -y
 sudo systemctl start apache2
 sudo systemctl enable apache2
@@ -30,5 +31,5 @@ cd ..
 sudo rm -rf new-web
 sudo systemctl restart apache2
 else
-echo "Good Try....! But please select 0 or 1"
+echo "Looks like its not a tooplate website url....! please give the correct url"
 fi
