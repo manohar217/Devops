@@ -7,11 +7,13 @@ else
 echo "The selected number is greater than 10. please select 0 to 10 only..!"
 fi
 if [ $number -ge 0 ] && [ $number -le 5 ]; then
-echo "
-sudo systemctl start apache2
-sudo systemctl enable apache2
+echo "apache2 start"
+sudo systemctl start apache2 > /dev/null
+echo "apache2 enable"
+sudo systemctl enable apache2 > /dev/null
 mkdir -p new-web
 cd new-web
+echo "
 sudo wget $url
 name=$(basename "$url" .zip)
 echo "$name"
