@@ -2086,3 +2086,19 @@ Changes to be committed:
 [main 230b98c] Wed May 10 17:54:01 UTC 2023
  2 files changed, 11 insertions(+)
 Wed May 10 17:56:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   log.txt
+	deleted:    website-script/.websiteoutputredirect.sh.swp
+	new file:   website-script/new-web/2117_infinite_loop.zip
+	modified:   website-script/websiteoutputredirect.sh
+
+[main ecc55bf] Wed May 10 17:56:01 UTC 2023
+ 4 files changed, 20 insertions(+), 24 deletions(-)
+ delete mode 100644 website-script/.websiteoutputredirect.sh.swp
+ create mode 100644 website-script/new-web/2117_infinite_loop.zip
+ mode change 100644 => 100755 website-script/websiteoutputredirect.sh
+Wed May 10 17:58:01 UTC 2023

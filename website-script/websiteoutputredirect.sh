@@ -13,7 +13,7 @@ echo "apache2 enable"
 sudo systemctl enable apache2 &> /dev/null
 mkdir -p new-web
 cd new-web
-echo "downloading teamplate....!"
+echo "downloading teamplate...."
 sudo wget $url &> /dev/null
 name=$(basename "$url" .zip)
 echo "tooplate name is $name"
