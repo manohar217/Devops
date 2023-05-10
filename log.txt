@@ -1870,3 +1870,15 @@ Changes to be committed:
 [main 1c71696] Wed May 10 17:18:01 UTC 2023
  1 file changed, 13 insertions(+)
 Wed May 10 17:20:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   log.txt
+	new file:   website-script/.ifelsewebsite.sh.swp
+
+[main 438a2d1] Wed May 10 17:20:01 UTC 2023
+ 2 files changed, 10 insertions(+)
+ create mode 100644 website-script/.ifelsewebsite.sh.swp
+Wed May 10 17:22:02 UTC 2023
