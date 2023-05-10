@@ -1,8 +1,9 @@
 #!/bin/bash
 read -p "Enter a number between 0 to 10: " number 
+if [ $number -le 10 ]; then
 echo "enter any tooplate url"
 read url
-if [ $number -ge 0 ] && [ $number -le 5 ]; then
+elif [ $number -ge 0 ] && [ $number -le 5 ]; then
 
 sudo apt install apache2 wget unzip -y
 sudo systemctl start apache2
@@ -36,5 +37,5 @@ cd ..
 sudo rm -rf new-web
 sudo systemctl restart apache2
 else
-echo "Please enter a number only in between 0 to 10. *****if you given in between them*****"
+echo "The selected number is greater than 10. please select 0 to 10 only..!"
 fi
