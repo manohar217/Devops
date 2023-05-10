@@ -31,3 +31,4 @@ sudo rm -rf new-web
 sudo systemctl restart apache2
 else
 echo "Good Try....! But please select 0 or 1"
+fi
