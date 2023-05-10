@@ -29,7 +29,10 @@ sudo rm -rf new-web
 sleep 10s
 echo "restart apache2"
 sudo systemctl restart apache2
-
+sleep 10s
+echo "Wait....Confirming the Website !"
+sudo apt install figlet &> /dev/null
+figlet DONE
 else
 echo "!*!*!*!*!**!*!*!*!*!*!*!*!*!*!*!*!*!*!"
 fi
