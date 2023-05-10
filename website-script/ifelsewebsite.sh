@@ -40,5 +40,5 @@ cd ..
 sudo rm -rf new-web
 sudo systemctl restart apache2
 else
-echo "!!!!!!!!!!!!!!!!!!!!!!"
+echo "!*!*!*!*!**!*!*!*!*!*!*!*!*!*!*!*!*!*!"
 fi
