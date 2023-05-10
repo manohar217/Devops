@@ -1633,3 +1633,139 @@ Changes to be committed:
 [main 8e808f1] Wed May 10 16:58:01 UTC 2023
  2 files changed, 12 insertions(+)
 Wed May 10 17:00:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   log.txt
+	modified:   website-script/.ifelsewebsite.sh.swp
+	deleted:    website-script/2117_infinite_loop.zip
+	deleted:    website-script/2117_infinite_loop/css/bootstrap.min.css
+	deleted:    website-script/2117_infinite_loop/css/tooplate-infinite-loop.css
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/LICENSE.txt
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/css/all.min.css
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.eot
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.svg
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.ttf
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.woff
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.woff2
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.eot
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.svg
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.ttf
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.woff
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.woff2
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.eot
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.svg
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.ttf
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.woff
+	deleted:    website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.woff2
+	deleted:    website-script/2117_infinite_loop/img/gallery-img-01.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-img-02.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-img-03.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-img-04.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-img-05.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-img-06.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-tn-01.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-tn-02.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-tn-03.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-tn-04.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-tn-05.jpg
+	deleted:    website-script/2117_infinite_loop/img/gallery-tn-06.jpg
+	deleted:    website-script/2117_infinite_loop/img/infinite-loop-01.jpg
+	deleted:    website-script/2117_infinite_loop/img/infinite-loop-02-mobile.jpg
+	deleted:    website-script/2117_infinite_loop/img/infinite-loop-02.jpg
+	deleted:    website-script/2117_infinite_loop/img/infinite-loop-03.jpg
+	deleted:    website-script/2117_infinite_loop/img/testimonial-img-01.jpg
+	deleted:    website-script/2117_infinite_loop/img/testimonial-img-02.jpg
+	deleted:    website-script/2117_infinite_loop/img/testimonial-img-03.jpg
+	deleted:    website-script/2117_infinite_loop/img/testimonial-img-04.jpg
+	deleted:    website-script/2117_infinite_loop/img/the-town-bg-02.jpg
+	deleted:    website-script/2117_infinite_loop/index.html
+	deleted:    website-script/2117_infinite_loop/js/bootstrap.min.js
+	deleted:    website-script/2117_infinite_loop/js/easing.min.js
+	deleted:    website-script/2117_infinite_loop/js/jquery-1.9.1.min.js
+	deleted:    website-script/2117_infinite_loop/js/jquery.singlePageNav.min.js
+	deleted:    website-script/2117_infinite_loop/magnific-popup/jquery.magnific-popup.min.js
+	deleted:    website-script/2117_infinite_loop/magnific-popup/magnific-popup.css
+	deleted:    website-script/2117_infinite_loop/slick/ajax-loader.gif
+	deleted:    website-script/2117_infinite_loop/slick/config.rb
+	deleted:    website-script/2117_infinite_loop/slick/fonts/slick.eot
+	deleted:    website-script/2117_infinite_loop/slick/fonts/slick.svg
+	deleted:    website-script/2117_infinite_loop/slick/fonts/slick.ttf
+	deleted:    website-script/2117_infinite_loop/slick/fonts/slick.woff
+	deleted:    website-script/2117_infinite_loop/slick/slick-theme.css
+	deleted:    website-script/2117_infinite_loop/slick/slick-theme.less
+	deleted:    website-script/2117_infinite_loop/slick/slick-theme.scss
+	deleted:    website-script/2117_infinite_loop/slick/slick.css
+	deleted:    website-script/2117_infinite_loop/slick/slick.js
+	deleted:    website-script/2117_infinite_loop/slick/slick.less
+	deleted:    website-script/2117_infinite_loop/slick/slick.min.js
+	deleted:    website-script/2117_infinite_loop/slick/slick.scss
+	modified:   website-script/ifelsewebsite.sh
+
+[main f99fbc8] Wed May 10 17:00:01 UTC 2023
+ 65 files changed, 17 insertions(+), 9861 deletions(-)
+ delete mode 100644 website-script/2117_infinite_loop.zip
+ delete mode 100644 website-script/2117_infinite_loop/css/bootstrap.min.css
+ delete mode 100644 website-script/2117_infinite_loop/css/tooplate-infinite-loop.css
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/LICENSE.txt
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/css/all.min.css
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.eot
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.svg
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.ttf
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.woff
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-brands-400.woff2
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.eot
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.svg
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.ttf
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.woff
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-regular-400.woff2
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.eot
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.svg
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.ttf
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.woff
+ delete mode 100644 website-script/2117_infinite_loop/fontawesome-5.5/webfonts/fa-solid-900.woff2
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-img-01.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-img-02.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-img-03.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-img-04.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-img-05.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-img-06.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-tn-01.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-tn-02.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-tn-03.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-tn-04.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-tn-05.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/gallery-tn-06.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/infinite-loop-01.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/infinite-loop-02-mobile.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/infinite-loop-02.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/infinite-loop-03.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/testimonial-img-01.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/testimonial-img-02.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/testimonial-img-03.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/testimonial-img-04.jpg
+ delete mode 100644 website-script/2117_infinite_loop/img/the-town-bg-02.jpg
+ delete mode 100644 website-script/2117_infinite_loop/index.html
+ delete mode 100644 website-script/2117_infinite_loop/js/bootstrap.min.js
+ delete mode 100644 website-script/2117_infinite_loop/js/easing.min.js
+ delete mode 100644 website-script/2117_infinite_loop/js/jquery-1.9.1.min.js
+ delete mode 100644 website-script/2117_infinite_loop/js/jquery.singlePageNav.min.js
+ delete mode 100644 website-script/2117_infinite_loop/magnific-popup/jquery.magnific-popup.min.js
+ delete mode 100644 website-script/2117_infinite_loop/magnific-popup/magnific-popup.css
+ delete mode 100644 website-script/2117_infinite_loop/slick/ajax-loader.gif
+ delete mode 100644 website-script/2117_infinite_loop/slick/config.rb
+ delete mode 100644 website-script/2117_infinite_loop/slick/fonts/slick.eot
+ delete mode 100644 website-script/2117_infinite_loop/slick/fonts/slick.svg
+ delete mode 100644 website-script/2117_infinite_loop/slick/fonts/slick.ttf
+ delete mode 100644 website-script/2117_infinite_loop/slick/fonts/slick.woff
+ delete mode 100644 website-script/2117_infinite_loop/slick/slick-theme.css
+ delete mode 100644 website-script/2117_infinite_loop/slick/slick-theme.less
+ delete mode 100644 website-script/2117_infinite_loop/slick/slick-theme.scss
+ delete mode 100644 website-script/2117_infinite_loop/slick/slick.css
+ delete mode 100644 website-script/2117_infinite_loop/slick/slick.js
+ delete mode 100644 website-script/2117_infinite_loop/slick/slick.less
+ delete mode 100644 website-script/2117_infinite_loop/slick/slick.min.js
+ delete mode 100644 website-script/2117_infinite_loop/slick/slick.scss
+Wed May 10 17:02:01 UTC 2023
