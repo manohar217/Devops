@@ -3,6 +3,9 @@ read -p "Enter a number between 0 to 10: " number
 if [ $number -le 10 ]; then
 echo "enter any tooplate url"
 read url
+else
+echo "The selected number is greater than 10. please select 0 to 10 only..!"
+fi
 if [ $number -ge 0 ] && [ $number -le 5 ]; then
 
 sudo apt install apache2 wget unzip -y
@@ -37,5 +40,5 @@ cd ..
 sudo rm -rf new-web
 sudo systemctl restart apache2
 else
-echo "The selected number is greater than 10. please select 0 to 10 only..!"
+echo "!!!!!!!!!!!!!!!!!!!!!!"
 fi
