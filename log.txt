@@ -4046,3 +4046,69 @@ Changes to be committed:
  create mode 100644 forloop/y.txt
  create mode 100644 forloop/z.txt
 Thu May 11 17:00:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   forloop/.forloop.sh.swp
+	deleted:    forloop/a..z.txt
+	deleted:    forloop/a.txt
+	deleted:    forloop/b.txt
+	deleted:    forloop/c.txt
+	deleted:    forloop/d.txt
+	deleted:    forloop/e.txt
+	deleted:    forloop/f.txt
+	deleted:    forloop/g.txt
+	deleted:    forloop/h.txt
+	deleted:    forloop/i.txt
+	deleted:    forloop/j.txt
+	deleted:    forloop/k.txt
+	deleted:    forloop/l.txt
+	deleted:    forloop/m.txt
+	deleted:    forloop/n.txt
+	deleted:    forloop/o.txt
+	deleted:    forloop/p.txt
+	deleted:    forloop/q.txt
+	deleted:    forloop/r.txt
+	deleted:    forloop/s.txt
+	deleted:    forloop/t.txt
+	deleted:    forloop/u.txt
+	deleted:    forloop/v.txt
+	deleted:    forloop/w.txt
+	deleted:    forloop/x.txt
+	deleted:    forloop/y.txt
+	deleted:    forloop/z.txt
+	modified:   log.txt
+
+[main c602581] Thu May 11 17:00:01 UTC 2023
+ 29 files changed, 54 insertions(+)
+ create mode 100644 forloop/.forloop.sh.swp
+ delete mode 100644 forloop/a..z.txt
+ delete mode 100644 forloop/a.txt
+ delete mode 100644 forloop/b.txt
+ delete mode 100644 forloop/c.txt
+ delete mode 100644 forloop/d.txt
+ delete mode 100644 forloop/e.txt
+ delete mode 100644 forloop/f.txt
+ delete mode 100644 forloop/g.txt
+ delete mode 100644 forloop/h.txt
+ delete mode 100644 forloop/i.txt
+ delete mode 100644 forloop/j.txt
+ delete mode 100644 forloop/k.txt
+ delete mode 100644 forloop/l.txt
+ delete mode 100644 forloop/m.txt
+ delete mode 100644 forloop/n.txt
+ delete mode 100644 forloop/o.txt
+ delete mode 100644 forloop/p.txt
+ delete mode 100644 forloop/q.txt
+ delete mode 100644 forloop/r.txt
+ delete mode 100644 forloop/s.txt
+ delete mode 100644 forloop/t.txt
+ delete mode 100644 forloop/u.txt
+ delete mode 100644 forloop/v.txt
+ delete mode 100644 forloop/w.txt
+ delete mode 100644 forloop/x.txt
+ delete mode 100644 forloop/y.txt
+ delete mode 100644 forloop/z.txt
+Thu May 11 17:02:01 UTC 2023
