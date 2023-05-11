@@ -4382,3 +4382,15 @@ Changes to be committed:
 [main ef6ba49] Thu May 11 17:24:01 UTC 2023
  1 file changed, 19 insertions(+)
 Thu May 11 17:26:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   forloop/.inputforloop.sh.swp
+	modified:   log.txt
+
+[main 4cefa31] Thu May 11 17:26:01 UTC 2023
+ 2 files changed, 10 insertions(+)
+ create mode 100644 forloop/.inputforloop.sh.swp
+Thu May 11 17:28:01 UTC 2023
