@@ -4261,3 +4261,16 @@ Changes to be committed:
  delete mode 100644 forloop/y.txt
  delete mode 100644 forloop/z.txt
 Thu May 11 17:08:02 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    forloop/.inputforloop.txt.swp
+	modified:   forloop/inputforloop.txt
+	modified:   log.txt
+
+[main 0e26e60] Thu May 11 17:08:02 UTC 2023
+ 3 files changed, 71 insertions(+), 1 deletion(-)
+ delete mode 100644 forloop/.inputforloop.txt.swp
+Thu May 11 17:10:01 UTC 2023

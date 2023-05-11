@@ -1,4 +1,4 @@
-cp var.txt > $input
+cat var.txt > $input
 for n in $input
 do
 touch $n.txt
