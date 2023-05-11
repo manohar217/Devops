@@ -3948,3 +3948,17 @@ Changes to be committed:
  create mode 100644 forloop/c.txt
  create mode 100644 forloop/d.txt
 Thu May 11 16:50:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   forloop/a..z.txt
+	new file:   forloop/forloop.sh
+	modified:   log.txt
+
+[main 7dc5961] Thu May 11 16:50:01 UTC 2023
+ 3 files changed, 19 insertions(+)
+ create mode 100644 forloop/a..z.txt
+ create mode 100644 forloop/forloop.sh
+Thu May 11 16:52:01 UTC 2023
