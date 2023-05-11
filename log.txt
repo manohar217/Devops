@@ -4274,3 +4274,19 @@ Changes to be committed:
  3 files changed, 71 insertions(+), 1 deletion(-)
  delete mode 100644 forloop/.inputforloop.txt.swp
 Thu May 11 17:10:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   forloop/.inputforloop.sh.swp
+	renamed:    forloop/inputforloop.txt -> forloop/inputforloop.sh
+	new file:   forloop/var.txt
+	modified:   log.txt
+
+[main 1a7cb99] Thu May 11 17:10:01 UTC 2023
+ 4 files changed, 18 insertions(+), 1 deletion(-)
+ create mode 100644 forloop/.inputforloop.sh.swp
+ rename forloop/{inputforloop.txt => inputforloop.sh} (63%)
+ create mode 100644 forloop/var.txt
+Thu May 11 17:12:01 UTC 2023

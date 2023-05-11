@@ -1,5 +1,5 @@
-cat var.txt > $input
-for n in $input
+
+for n in ./var.txt
 do
 touch $n.txt
 done
