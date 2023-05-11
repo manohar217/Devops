@@ -1,4 +1,4 @@
-for n in apple banana
+for n in {a..z}
 do
-rm $n.txt
+rm $n.txt	
 done

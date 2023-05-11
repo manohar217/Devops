@@ -4178,3 +4178,17 @@ Changes to be committed:
  create mode 100644 forloop/y.txt
  create mode 100644 forloop/z.txt
 Thu May 11 17:04:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   forloop/.remove.sh.swp
+	new file:   forloop/remove.sh
+	modified:   log.txt
+
+[main 91059a8] Thu May 11 17:04:02 UTC 2023
+ 3 files changed, 70 insertions(+)
+ create mode 100644 forloop/.remove.sh.swp
+ create mode 100755 forloop/remove.sh
+Thu May 11 17:06:01 UTC 2023
