@@ -7945,3 +7945,17 @@ Changes to be committed:
 [main a815c9d] Mon May 15 12:44:01 UTC 2023
  2 files changed, 11 insertions(+)
 Mon May 15 12:46:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Lab/arithmetic/.factor.sh.swp
+	new file:   Lab/arithmetic/factor.sh
+	modified:   log.txt
+
+[main 9c94d5f] Mon May 15 12:46:01 UTC 2023
+ 3 files changed, 20 insertions(+)
+ rewrite Lab/arithmetic/.factor.sh.swp (67%)
+ create mode 100755 Lab/arithmetic/factor.sh
+Mon May 15 12:48:01 UTC 2023
