@@ -7804,3 +7804,13 @@ Changes to be committed:
  2 files changed, 15 insertions(+)
  create mode 100644 Lab/varaibles/amazing_output.txt
 Mon May 15 12:22:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   log.txt
+
+[main 7ff51d0] Mon May 15 12:22:01 UTC 2023
+ 1 file changed, 12 insertions(+)
+Mon May 15 12:24:01 UTC 2023
