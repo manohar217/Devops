@@ -8981,3 +8981,15 @@ Changes to be committed:
 [main ca00a1c] Mon May 15 15:58:01 UTC 2023
  2 files changed, 15 insertions(+), 2 deletions(-)
 Mon May 15 16:00:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Lab/forloops/filesize.sh
+	modified:   log.txt
+
+[main 7fea1ef] Mon May 15 16:00:01 UTC 2023
+ 2 files changed, 11 insertions(+)
+ mode change 100644 => 100755 Lab/forloops/filesize.sh
+Mon May 15 16:02:01 UTC 2023
