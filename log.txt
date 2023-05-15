@@ -7792,3 +7792,15 @@ Changes to be committed:
  delete mode 100644 Lab/varaibles/helloworld
  create mode 100644 Lab/varaibles/helloworld.sh
 Mon May 15 12:20:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   Lab/varaibles/amazing_output.txt
+	modified:   log.txt
+
+[main 11a6871] Mon May 15 12:20:01 UTC 2023
+ 2 files changed, 15 insertions(+)
+ create mode 100644 Lab/varaibles/amazing_output.txt
+Mon May 15 12:22:01 UTC 2023
