@@ -8114,3 +8114,13 @@ Changes to be committed:
  2 files changed, 14 insertions(+)
  mode change 100644 => 100755 Lab/arithmetic/factor1.sh
 Mon May 15 13:14:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   log.txt
+
+[main ba6359e] Mon May 15 13:14:01 UTC 2023
+ 1 file changed, 12 insertions(+)
+Mon May 15 13:16:01 UTC 2023
