@@ -9026,3 +9026,14 @@ Changes to be committed:
  2 files changed, 11 insertions(+)
  create mode 100644 Lab/forloops/.filesize.sh.swp
 Mon May 15 16:08:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Lab/forloops/.filesize.sh.swp
+	modified:   log.txt
+
+[main a5f7600] Mon May 15 16:08:01 UTC 2023
+ 2 files changed, 12 insertions(+)
+Mon May 15 16:10:01 UTC 2023
