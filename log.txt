@@ -8019,3 +8019,14 @@ Changes to be committed:
 [main 44ae74d] Mon May 15 12:56:02 UTC 2023
  2 files changed, 15 insertions(+), 2 deletions(-)
 Mon May 15 12:58:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Lab/arithmetic/factor.sh
+	modified:   log.txt
+
+[main 5b99ad2] Mon May 15 12:58:01 UTC 2023
+ 2 files changed, 13 insertions(+), 2 deletions(-)
+Mon May 15 13:00:01 UTC 2023
