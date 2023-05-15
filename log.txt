@@ -8211,3 +8211,15 @@ Changes to be committed:
  3 files changed, 19 insertions(+), 1 deletion(-)
  delete mode 100644 Lab/conditionals/.argument.sh.swp
 Mon May 15 13:30:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   Lab/conditionals/.argument1.sh.swp
+	modified:   log.txt
+
+[main 9b5368c] Mon May 15 13:30:01 UTC 2023
+ 2 files changed, 13 insertions(+)
+ create mode 100644 Lab/conditionals/.argument1.sh.swp
+Mon May 15 13:32:01 UTC 2023
