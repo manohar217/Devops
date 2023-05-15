@@ -8041,3 +8041,15 @@ Changes to be committed:
 [main ffc3099] Mon May 15 13:00:01 UTC 2023
  2 files changed, 12 insertions(+), 1 deletion(-)
 Mon May 15 13:02:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   Lab/arithmetic/.factor.sh.swp
+	modified:   log.txt
+
+[main 4564973] Mon May 15 13:02:01 UTC 2023
+ 2 files changed, 11 insertions(+)
+ create mode 100644 Lab/arithmetic/.factor.sh.swp
+Mon May 15 13:04:01 UTC 2023
