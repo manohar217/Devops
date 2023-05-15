@@ -1,10 +1,10 @@
 #!/bin/bash
 echo "give a number"
 read number
-if [ $(number % 2) -eq 0 ];
+if [ $((number % 2)) -eq 0 ];
 then
 echo "one factor"
-elif [$(number % 3) -eq 0 ];
+elif [$((number % 3)) -eq 0 ];
 then
 echo "one factor...actually two!"
 else	
