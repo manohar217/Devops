@@ -2,5 +2,5 @@
 var="ls"
 for size in $var
 do
-du -df $size
+du -d $size
 done
