@@ -9048,3 +9048,16 @@ Changes to be committed:
 [main 388a7de] Mon May 15 16:10:01 UTC 2023
  2 files changed, 11 insertions(+)
 Mon May 15 16:12:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    Lab/forloops/.filesize.sh.swp
+	modified:   Lab/forloops/filesize.sh
+	modified:   log.txt
+
+[main 9c55cd1] Mon May 15 16:12:01 UTC 2023
+ 3 files changed, 13 insertions(+), 2 deletions(-)
+ delete mode 100644 Lab/forloops/.filesize.sh.swp
+Mon May 15 16:14:01 UTC 2023
