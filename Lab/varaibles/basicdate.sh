@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(data)>the_date.txt
+echo $(date)>the_date.txt
