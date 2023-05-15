@@ -7857,3 +7857,17 @@ Changes to be committed:
  delete mode 100644 Lab/varaibles/.basicdate.sh.swp
  create mode 100644 Lab/varaibles/.greatday.sh.swp
 Mon May 15 12:30:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    Lab/varaibles/.greatday.sh.swp
+	new file:   Lab/varaibles/greatday.sh
+	modified:   log.txt
+
+[main 61c14c2] Mon May 15 12:30:01 UTC 2023
+ 3 files changed, 20 insertions(+)
+ delete mode 100644 Lab/varaibles/.greatday.sh.swp
+ create mode 100755 Lab/varaibles/greatday.sh
+Mon May 15 12:32:01 UTC 2023
