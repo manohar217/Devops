@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for size in $(ls -
+for size in $(ls);
 do
-du -d $size
+	echo $(du -sh "$size" | cut -f1)
 done
