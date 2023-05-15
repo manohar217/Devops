@@ -7814,3 +7814,15 @@ Changes to be committed:
 [main 7ff51d0] Mon May 15 12:22:01 UTC 2023
  1 file changed, 12 insertions(+)
 Mon May 15 12:24:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   Lab/varaibles/.basicdate.sh.swp
+	modified:   log.txt
+
+[main f0caaef] Mon May 15 12:24:01 UTC 2023
+ 2 files changed, 10 insertions(+)
+ create mode 100644 Lab/varaibles/.basicdate.sh.swp
+Mon May 15 12:26:01 UTC 2023
