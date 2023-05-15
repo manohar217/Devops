@@ -1,3 +1,6 @@
 #!/bin/bash
-ls > $var
-for 
+var="ls"
+for size in $var
+do
+du -df $size
+done
