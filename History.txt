@@ -532,3 +532,761 @@
   254  ls
   255  ./webscript.sh
   256  history >> /home/vagrant/github/Devops/History.txt 
+    1  vagrant ssh -c "hostname -I | cut -d' ' -f2"
+    2  mkdir github
+    3  cd github/
+    4  mkdir -p Revision/Linux
+    5  git init
+    6  git --global -user.name "Manohar"
+    7  git -global --user.name "Manohar"
+    8  git config --global user.name "Manohar"
+    9  git config --global user.email "rajmanohar19@gmail.com"
+   10  git clone https://github.com/manohar217/Devops.git
+   11  ls
+   12  cd Devops/
+   13  ls
+   14  notepad cron.sh
+   15  vim cron.sh
+   16  git remote add origin https://github.com/manohar217/Devops.git
+   17  git pull
+   18  ls
+   19  crontab -e
+   20  pwd
+   21  crontab -e
+   22  vim cron.sh 
+   23  crontab -e
+   24  ls
+   25  vim cron.sh 
+   26  vim crontab -e
+   27  crontab -e
+   28  export EDITOR=VIM
+   29  crontab -e
+   30  export EDITOR=vim
+   31  crontab -e
+   32  ls -la
+   33  chmod +x cron.sh 
+   34  ls -la
+   35  chmod - cron.sh 
+   36  ls -la
+   37  chmod 764 cron.sh 
+   38  ls -la\
+   39  ls -la
+   40  crontab -e
+   41  ps -ef
+   42  ps -ef | grep -i cron
+   43  date
+   44  crontab -e
+   45  pwd
+   46  crontab -e
+   47  ls
+   48  crontab -e
+   49  ls
+   50  crontab -e
+   51  ls
+   52  cat logs.txt 
+   53  vim cron.sh 
+   54  ls
+   55  cat logs.txt 
+   56  ll
+   57  chmod +x cron.sh 
+   58  cat logs.txt 
+   59  cat logs.txt
+   60  ps -ef | grep -i cron
+   61  cat logs.txt
+   62  vim cron.sh 
+   63  cat logs.txt
+   64  vim cron.sh 
+   65  crontab -e
+   66  cat logs.txt
+   67  vim cron.sh 
+   68  ls
+   69  git add .
+   70  git status
+   71  vim cron.sh 
+   72  cat cron.sh 
+   73  cat logs.txt 
+   74  vim cron.sh 
+   75  git status >> logs.txt 
+   76  cat logs.txt 
+   77  ssh-keygen 
+   78  cat ~/.ssh/id_rsa.pub 
+   79  ls
+   80  rm logs.txt 
+   81  ls
+   82  crontab -e
+   83  ls
+   84  vim cron.sh 
+   85  rm cron.sh 
+   86  cd ..
+   87  rm Devops/
+   88  rm Devops/ -r
+   89  y
+   90  yls
+   91  ls
+   92  git clone git@github.com:manohar217/Devops.git
+   93  cd Devops/
+   94  ls
+   95  vim cron.sh
+   96  crontab -e 
+   97  ls -la
+   98  chmod +x cron.sh 
+   99  pwd
+  100  vim cron.sh 
+  101  git branch
+  102  git remote -v
+  103  ls
+  104  cat logs.txt 
+  105  vim cron.sh 
+  106  git status
+  107  cat logs.txt 
+  108  git add .
+  109  git status
+  110  git commit -m "$(date)"
+  111  git push
+  112  vim cr
+  113  vim cron.sh 
+  114  ls
+  115  cat logs.txt 
+  116  git status
+  117  vim cron.sh 
+  118  pwd
+  119  vim cron.sh 
+  120  cat logs.txt 
+  121  vim cron.sh 
+  122  ls
+  123  cat logs.txt 
+  124  echo "" > logs.txt 
+  125  cat logs.txt 
+  126  ceontab -e
+  127  crontab -e
+  128  ls
+  129  cat logs.txt 
+  130  ls
+  131  rm logs.txt 
+  132  ls
+  133  vi cron.sh 
+  134  mkdir Linux
+  135  cd Linux/
+  136  df -h
+  137  echo "todays date is $(date)" >metrics.txt
+  138  date
+  139  awk --help
+  140  date | awk '{print $3}
+  141  date | awk '{print $3}'
+  142  date | awk '{print $3,$4}'
+  143  date | awk '{print $4}'
+  144  echo todays cuurent time "$(data) | awk '{print $4}'"
+  145  echo todays cuurent time "$(date) | awk '{print $4}'"
+  146  echo "todays current time $(date) | awk '{print $4}'"
+  147  $time = "$(date) | awk '{print $4}'"
+  148  time ="$(date) | awk '{print $4}'"
+  149  time =$(date) | awk '{print $4}'
+  150  export time =$(date) | awk '{print $4}'
+  151  export time = $(date) | awk '{print $4}'
+  152  $(date) | awk '{print $4}' > time
+  153  $(date) | awk '{print $4}'
+  154  export time = date
+  155  export time=date
+  156  $time
+  157  export time=$(date) | awk '{print $4}'
+  158  $time
+  159  export time=date | awk '{print $4}'
+  160  $time
+  161  export time=`date | awk '{print $4}'`
+  162  $time
+  163  echo $time
+  164  df -h
+  165  ps -ef
+  166  free -h
+  167  free -m
+  168  free -m | awk '{print $3}'
+  169  free -m | grep -i mem | awk '{print $3}'
+  170  free -m
+  171  free -m | grep -i mem | awk '{print $4}'
+  172  export ram=free -m | grep -i mem | awk '{print $4}'
+  173  export ram=`free -m | grep -i mem | awk '{print $4}'`
+  174  ram
+  175  $ram
+  176  echo $ram
+  177  history
+  178  cd ../
+  179  vim cron.sh 
+  180  ls
+  181  rm history.txt 
+  182  ls
+  183  cat History.txt 
+  184  history > History.txt 
+  185  cat History.txt 
+  186  vim cron.sh 
+  187  ls
+  188  cat History.txt 
+  189  vim cron.sh 
+  190  cat History.txt 
+  191  ls
+  192  cat History.txt 
+  193  vim cron.sh 
+  194  vagrant halt
+  195  ipconfig
+  196  ls
+  197  cd github/
+  198  ls
+  199  cd Devops/
+  200  ls
+  201  vim cron.sh 
+  202  crontab -e
+  203  cat History.txt 
+  204  history
+  205  history > History.txt 
+  206  history
+  207  mkdir website
+  208  cd website/
+  209  apt install httpd wget unzip -y
+  210  sudo -i
+  211  ip addr show
+  212  ifconfig
+  213  apt install net-tools
+  214  sudo -i
+  215  ls
+  216  cd github/
+  217  cd Devops/
+  218  ls
+  219  cd Linux/
+  220  ls
+  221  vim filesystem.txt
+  222  sudo -i
+  223  cd ..
+  224  mkdir website-script
+  225  cd website-script/
+  226  ls
+  227  vim webscript.sh
+  228  cd github/Devops/
+  229  history >> History.txt 
+  230  cat History.txt 
+  231  cd website-script/
+  232  ls
+  233  vim webscript.sh
+  234  ls
+  235  ./webscript.sh
+  236  chmod +x webscript.sh 
+  237  ./webscript.sh
+  238  vim webscript.sh
+  239  ./webscript.sh
+  240  vim webscript.sh
+  241  ./webscript.sh
+  242  vim webscript.sh
+  243  ./webscript.sh
+  244  vim webscript.sh
+  245  ./webscript.sh
+  246  vim webscript.sh
+  247  ls /var/www/html
+  248  ls /var/www/
+  249  ./webscript.sh
+  250  ls
+  251  vim webscript.sh 
+  252  ./webscript.sh
+  253  vim webscript.sh 
+  254  ls
+  255  ./webscript.sh
+  256  history >> /home/vagrant/github/Devops/History.txt 
+  257  ls
+  258  cd github/Devops/
+  259  ls
+  260  cd website-script/
+  261  ls
+  262  rm -rf 2117_infinite_loop.zip.*
+  263  ls
+  264  vim webscript.sh 
+  265  vim ifelsewebsite.sh
+  266  ls
+  267  cat ifelsewebsite.sh 
+  268  ./ifelsewebsite.sh
+  269  chmod +x ifelsewebsite.sh 
+  270  ./ifelsewebsite.sh
+  271  vim ifelsewebsite.sh 
+  272  ./ifelsewebsite.sh
+  273  vim webscript.sh 
+  274  vim ifelsewebsite.sh 
+  275  ls
+  276  vim ifelsewebsite.sh 
+  277  ls
+  278  rm -rf 211*
+  279  sudo rm -rf 211*
+  280  ls
+  281  ./ifelsewebsite.sh 
+  282  vim ifelsewebsite.sh 
+  283  ./ifelsewebsite.sh 
+  284  vim ifelsewebsite.sh 
+  285  ./ifelsewebsite.sh 
+  286  vim ifelsewebsite.sh 
+  287  ./ifelsewebsite.sh 
+  288  vim ifelsewebsite.sh 
+  289  ./ifelsewebsite.sh 
+  290  vim ifelsewebsite.sh 
+  291  ./ifelsewebsite.sh 
+  292  vim ifelsewebsite.sh 
+  293  ./ifelsewebsite.sh 
+  294  vim ifelsewebsite.sh 
+  295  ./ifelsewebsite.sh 
+  296  vim ifelsewebsite.sh 
+  297  ./ifelsewebsite.sh 
+  298  vim websiteoutputredirect.sh
+  299  ls
+  300  cp websiteoutputredirect.sh ifelse.sh
+  301  ls
+  302  cp websiteoutputredirect.sh ioredict.sh
+  303  ls
+  304  vim ifelsewebsite.sh 
+  305  cp ifelsewebsite.sh websiteoutputredirect.sh
+  306  cat websiteoutputredirect.sh 
+  307  ls
+  308  rm ioredict.sh 
+  309  ls
+  310  vim websiteoutputredirect.sh 
+  311  find / -name null
+  312  sudo find / -name null
+  313  vim websiteoutputredirect.sh 
+  314  apt update > update.txt
+  315  apt update 2> update.txt
+  316  apt update 1> update.txt
+  317  apt update &> update.txt
+  318  vim websiteoutputredirect.sh 
+  319  ls
+  320  ./websiteoutputredirect.sh
+  321  chmod +x ./websiteoutputredirect.sh 
+  322  ./websiteoutputredirect.sh
+  323  vim websiteoutputredirect.sh 
+  324  ./websiteoutputredirect.sh
+  325  vim websiteoutputredirect.sh 
+  326  ./websiteoutputredirect.sh
+  327  vim websiteoutputredirect.sh 
+  328  ./websiteoutputredirect.sh
+  329  ls
+  330  cd github/Devops/
+  331  ls
+  332  cd website-script/
+  333  ls
+  334  vim powershellwebsite.ps1
+  335  cd github/Devops/
+  336  ls
+  337  mkdir githubdeploy
+  338  cd githubdeploy/
+  339  git clone git@github.com:manohar217/manohar217.github.io.git
+  340  ls
+  341  cd manohar217.github.io/
+  342  ls
+  343  rm index.html 
+  344  wget https://www.tooplate.com/zip-templates/2120_ben_resume.zip
+  345  ls
+  346  unzip 2120_ben_resume.zip 
+  347  ls
+  348  cd 2120_ben_resume/
+  349  ls
+  350  git branch
+  351  git remote -a
+  352  git remote -v
+  353  git status
+  354  ls
+  355  cd ..
+  356  ls
+  357  git status
+  358  rm -rf 2120_ben_resume.zip 
+  359  git status
+  360  cp ./2120_ben_resume/* .
+  361  cp -r ./2120_ben_resume/* .
+  362  ls
+  363  rm -rf 2120_ben_resume/
+  364  git status
+  365  git add .
+  366  git commit -m "tooplate website" .
+  367  git push
+  368  ls
+  369  cd images
+  370  ls
+  371  cd ..
+  372  ls
+  373  cd ..
+  374  ls
+  375  cd ..
+  376  ls
+  377  mkdir forloop
+  378  cd forloop
+  379  for n in a b c d; do New-Item $n.txt; done
+  380  for n in a b c d; do touch $n.txt; done
+  381  ls
+  382  vim forloop.sh
+  383  for n in a..z; do touch $n.txt; done
+  384  ls
+  385  for n in {a..z}; do touch $n.txt; done
+  386  ls
+  387  for n in {a..z}; do rm $n.txt; done
+  388  ls
+  389  rm a..z.txt 
+  390  ls
+  391  vim forloop.sh 
+  392  ls
+  393  ./forloop.sh
+  394  chmod forloop.sh
+  395  chmod +x forloop.sh
+  396  ./forloop.sh
+  397  ls
+  398  vim forloop.sh 
+  399  ./forloop.sh
+  400  ls
+  401  cp forloop.sh  remove.sh
+  402  vim remove.sh 
+  403  ./remove.sh 
+  404  ls
+  405  vim remove.sh 
+  406  ./remove.sh 
+  407  ls
+  408  cp forloop.sh inputforloop.txt
+  409  ls
+  410  vim inputforloop.txt 
+  411  vim var.txt
+  412  mv inputforloop.txt inputforloop.sh
+  413  ./inputforloop.sh 
+  414  vim inputforloop.sh 
+  415  ./inputforloop.sh 
+  416  vim inputforloop.sh 
+  417  ./inputforloop.sh 
+  418  vim inputforloop.sh 
+  419  ./inputforloop.sh 
+  420  vim inputforloop.sh 
+  421  ./inputforloop.sh 
+  422  ls
+  423  rm var.txt.txt 
+  424  ls
+  425  vim inputforloop.sh 
+  426  ./inputforloop.sh 
+  427  vim inputforloop.sh 
+  428  grep -i "1" var.txt 
+  429  cat var.txt 
+  430  grep -i "a" var.txt 
+  431  vim inputforloop.sh 
+  432  var.txt[0]
+  433  vim inputforloop.sh 
+  434  ls
+  435  ./inputforloop.sh 
+  436  ls
+  437  vim inputforloop.sh 
+  438  cd ..
+  439  ls
+  440  cd website
+  441  cd ..
+  442  cd website-script/
+  443  ls
+  444  rm powershellwebsite.ps1 
+  445  ls
+  446  cd github/
+  447  ls
+  448  cd Devops/
+  449  ls
+  450  cd website-script/
+  451  ls
+  452  cat websiteoutputredirect.sh 
+  453  ls
+  454  cd ..
+  455  ls
+  456  cd githubdeploy/
+  457  ls
+  458  cd manohar217.github.io/
+  459  ls
+  460  pwd
+  461  ls
+  462  cd github/
+  463  ls
+  464  cd Devops/
+  465  ls
+  466  mkdir Lab
+  467  cd L
+  468  cd Lab
+  469  mkdir varaibles
+  470  cd varaibles/
+  471  vim helloworld
+  472  $var=name
+  473  echo name> $var
+  474  $var = name
+  475  $var=name
+  476  echo $var=name
+  477  $var
+  478  var="name"
+  479  $var
+  480  var
+  481  echo $var
+  482  vim helloworld 
+  483  mv helloworld helloworld.sh
+  484  ./helloworld
+  485  ls
+  486  bash helloworld.sh
+  487  ls
+  488  cat amazing_output.txt 
+  489  vim basicdate
+  490  vim basicdate.sh
+  491  ./basicdate.sh
+  492  chmod +x basicdate.sh 
+  493  ./basicdate.sh
+  494  vim basicdate.sh
+  495  echo $(date)
+  496  vim basicdate.sh
+  497  ./basicdate.sh
+  498  vim basicdate.sh
+  499  ./basicdate.sh
+  500  vim greatday.sh
+  501  ./greatday.sh
+  502  chmod +x greatday.sh 
+  503  ./greatday.sh
+  504  cd ..
+  505  mkdir Arithmetic
+  506  mv Arithmetic/ arithmetic
+  507  ls
+  508  cd arithmetic/
+  509  vim factor.sh
+  510  ./factor.sh
+  511  chmod +x factor.sh 
+  512  ./factor.sh
+  513  vim factor.sh
+  514  ./factor.sh
+  515  vim factor.sh
+  516  ./factor.sh
+  517  vim factor.sh
+  518  ./factor.sh
+  519  vim factor.sh
+  520  ./factor.sh
+  521  vim factor.sh
+  522  ./factor.sh
+  523  vim factor.sh
+  524  ./factor.sh
+  525  vim factor.sh
+  526  ./factor.sh
+  527  vim factor.sh
+  528  ./factor.sh
+  529  vim factor.sh
+  530  ./factor.sh
+  531  vim factor.sh
+  532  ./factor.sh
+  533  vim factor.sh
+  534  ./factor.sh
+  535  vim factor.sh
+  536  ./factor.sh
+  537  vim factor.sh
+  538  ./factor.sh
+  539  vim factor.sh
+  540  ./factor.sh
+  541  vim factor.sh
+  542  ./factor.sh
+  543  vim factor.sh
+  544  vim factor1.sh
+  545  ./factor1.sh
+  546  chmod +x factor1.sh 
+  547  ./factor1.sh 6
+  548  ./factor1.sh 4
+  549  ./factor1.sh 5
+  550  cd ..
+  551  mkdir conditionals
+  552  cd conditionals/
+  553  vim argument.sh
+  554  chmod +x argument.sh
+  555  ./argument.sh
+  556  vim argument.sh
+  557  ./argument.sh
+  558  vim argument.sh
+  559  ./argument.sh
+  560  vim argument.sh
+  561  ./argument.sh
+  562  vim argument.sh
+  563  ./argument.sh
+  564  vim argument.sh
+  565  ./argument.sh
+  566  vim argument.sh
+  567  ./argument.sh
+  568  vim argument.sh
+  569  ./argument.sh
+  570  vim argument.sh
+  571  vim argument1.sh
+  572  vim argument1.sh apple pizza
+  573  ./argument1.sh apple pizza
+  574  chmod +x argument1.sh 
+  575  ./argument1.sh apple pizza
+  576  vim argument1.sh
+  577  ./argument1.sh apple pizza
+  578  ./argument1.sh apple
+  579  ./argument1.sh pizza
+  580  ./argument1.sh pizza apple
+  581  ./argument1.sh apple pizza
+  582  ./argument1.sh
+  583  vim argument1.sh 
+  584  cd ..
+  585  ls
+  586  cd arithmetic/
+  587  ls
+  588  vim factor.sh 
+  589  vim factor1.sh 
+  590  cd ../conditionals/
+  591  ls
+  592  vim argument2.sh
+  593  chmod +x argument2.sh 
+  594  ./argument2.sh 
+  595  ./argument2.sh fwef
+  596  ./argument2.sh pizza
+  597  vim argument2.sh
+  598  $(date)
+  599  echo $(date)
+  600  echo "$(date)"
+  601  echo "$(date)" >date
+  602  cat date 
+  603  rm date
+  604  cd ../
+  605  mkdir forloops
+  606  cd forloops/
+  607  vim filesize.sh
+  608  ls
+  609  vim filesize.sh
+  610  ls > $v
+  611  $v = ls
+  612  $v = "ls"
+  613  echo $v = "ls"
+  614  v = ls
+  615  v=ls
+  616  $v
+  617  vim filesize.sh
+  618  chmod +x filesize.sh
+  619  ./filesize.sh 
+  620  vim filesize.sh
+  621  du -df $v
+  622  du -f $v
+  623  du $v
+  624  ls
+  625  du filesize.sh 
+  626  du -h filesize.sh 
+  627  v="ls"
+  628  du -h $v
+  629  $v
+  630  du -h "$v"
+  631  du -h
+  632  du -h filesize.sh 
+  633  vim filesize.sh
+  634  $v
+  635  ls
+  636  vim filesize.sh
+  637  du -sh filesize.sh 
+  638  du -h filesize.sh 
+  639  du -h 
+  640  du --help
+  641  du -a filesize.sh 
+  642  du -a $var
+  643  du -a $v
+  644  du -a "$v"
+  645  vim filesize.sh 
+  646  ls -S1
+  647  ls
+  648  ls -s1
+  649  ls -S1
+  650  cd ..
+  651  ls
+  652  ls -S1
+  653  for i in $(ls -S1):; do echo $i: $(du -sh "$i" | cut -f1); done
+  654  for i in $(ls):; do echo $i: $(du -sh "$i" | cut -f1); done
+  655  for i in $(ls):; do echo $i: $(du -sh "$i"); done
+  656  for i in $(ls):; do echo $i: $(du -sh "$i" | cut f0); done
+  657  for i in $(ls):; do echo $i: $(du -sh "$i" | cut f1); done
+  658  for i in $(ls):; do echo $i: $(du -sh "$i" | cut -f0); done
+  659  for i in $(ls):; do echo $i: $(du -sh "$i" | cut -f1); done
+  660  for i in $(ls):; do echo $i: $(du -sh "$i" | cut -f2); done
+  661  for i in $(ls):; do echo $i: $(du -sh "$i" | cut -f1); done
+  662  find -i /name *.pub
+  663  find /name *.pub
+  664  find -name *.pub
+  665  cat ~/. ssh/id_rsa. pub
+  666  cat ~/.ssh/id_rsa. pub
+  667  ls
+  668  cd forloops/
+  669  ls
+  670  vim filesize.sh 
+  671  ./filesize.sh 
+  672  count filesize.sh 
+  673  wc -l filesize.sh 
+  674  wc -l filesize.sh | cut f1
+  675  wc -l filesize.sh | cut -f1
+  676  wc -l filesize.sh | cut -f2
+  677  wc -l filesize.sh | awk --help
+  678  wc -l filesize.sh | awk -F { print $1 }
+  679  wc -l filesize.sh | awk -F '{ print $1 }'
+  680  wc -l filesize.sh | gawk -F '{ print $1 }'
+  681  cd ..
+  682  mkdir whileloop
+  683  cd whileloop/
+  684  vim whileloop.sh
+  685  mv whileloop.sh count.sh
+  686  ./count.sh
+  687  chmod +x count.sh 
+  688  ./count.sh 
+  689  vim whileloop.sh
+  690  vim count.sh 
+  691  ./count.sh 
+  692  vim count.sh 
+  693  ./count.sh 
+  694  vim count.sh 
+  695  ./count.sh 
+  696  vim count.sh 
+  697  cd ..
+  698  mkdir functions
+  699  cd functions/
+  700  vim sum.sh
+  701  cd functions/
+  702  vim sum.sh
+  703  chmod +x sum.sh 
+  704  ./sum.sh 
+  705  ./sum.sh 1 2
+  706  ./sum.sh 11
+  707  vim sum.sh
+  708  ./sum.sh 1
+  709  ./sum.sh 12
+  710  ./sum.sh 12 12
+  711  ./sum.sh 1 2
+  712  vim sum.sh
+  713  ./sum.sh 1 2
+  714  ./sum.sh 1 
+  715  ./sum.sh 12 
+  716  ./sum.sh 12 13
+  717  set -eu
+  718  cd ..
+  719  mkdir casestatement
+  720  cd casestatement
+  721  ls
+  722  cd github/Devops/
+  723  ls
+  724  cd Lab/
+  725  ls
+  726  cd casestatement/
+  727  vim arg.sh
+  728  chmod +x arg.sh 
+  729  ./arg.sh 
+  730  ./arg.sh raj
+  731  ./arg.sh raj manu
+  732  vim arg.sh
+  733  ls
+  734  cd ..
+  735  mkdir misc
+  736  cd misc/
+  737  vim emptyfiles.sh
+  738  chmod +x emptyfiles.sh 
+  739  ls
+  740  touch a1 a2
+  741  ./emptyfiles.sh 
+  742  ./emptyfiles.sh a1
+  743  ./emptyfiles.sh ./a1
+  744  ls
+  745  rm a*
+  746  mkdir a1
+  747  ./emptyfiles.sh a1
+  748  ls
+  749  cd a1
+  750  touch abc.txt
+  751  cd ..
+  752  ./emptyfiles.sh a1
+  753  cd a1/
+  754  ls
+  755  cd ../..
+  756  cd ..
+  757  ls
+  758  history >> History.txt 
