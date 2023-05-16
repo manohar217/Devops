@@ -1,8 +1,8 @@
 #!/bin/bash
-echo "Give any input:"
-read input
-while $input;
+echo "Please insert your input:"
+while read line;
 do
-wc -c $input
+echo -n "$input" | wc -c
+echo -n "Please insert your input:"
 done
 

@@ -11625,3 +11625,18 @@ Changes to be committed:
  delete mode 100644 Lab/whileloop/.whileloop.sh.swp
  create mode 100644 Lab/whileloop/whileloop.sh
 Tue May 16 10:08:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   Lab/whileloop/.count.sh.swp
+	renamed:    Lab/whileloop/whileloop.sh -> Lab/whileloop/count.sh
+	modified:   log.txt
+
+[main ed25f9a] Tue May 16 10:08:01 UTC 2023
+ 3 files changed, 14 insertions(+)
+ create mode 100644 Lab/whileloop/.count.sh.swp
+ rename Lab/whileloop/{whileloop.sh => count.sh} (100%)
+ mode change 100644 => 100755
+Tue May 16 10:10:01 UTC 2023
