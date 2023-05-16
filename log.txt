@@ -12122,3 +12122,15 @@ Changes to be committed:
  2 files changed, 20 insertions(+)
  create mode 100755 Lab/casestatement/arg.sh
 Tue May 16 11:42:01 UTC 2023
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   Lab/casestatement/.arg.sh.swp
+	modified:   log.txt
+
+[main 98dc9ff] Tue May 16 11:42:01 UTC 2023
+ 2 files changed, 12 insertions(+)
+ create mode 100644 Lab/casestatement/.arg.sh.swp
+Tue May 16 11:44:01 UTC 2023
